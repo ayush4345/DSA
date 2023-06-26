@@ -33,6 +33,12 @@ int main()
     // variable size array
     int *arr = new int[n];
 
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
+
+    cout << arr[2] << endl;
     // maually release memory
     delete[] arr;
 }
